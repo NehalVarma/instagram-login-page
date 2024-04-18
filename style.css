@@ -1,0 +1,194 @@
+.info {
+    border: 2px solid rgb(218, 216, 216); /* Adjust the color and thickness as needed */
+    padding: 15px; /* Adjust the padding inside the border */
+   padding-right: 8%;
+   padding-left: 5%;
+   padding-bottom: 20px;
+    width: 300px; 
+    margin: 20px auto; 
+   
+}
+.info2 {
+    border: 2px solid rgb(218, 216, 216);
+    padding: 10px;
+    padding-right: 8%;
+    padding-left: 5%;
+    width: 300px;
+    margin: 5px auto 30px; /* Adjust margin-top to bring it closer to .info */
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 16px;
+    color: #777;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+input:focus + label, 
+input:valid + label {
+    transform: translateY(-25px);
+    font-size: 12px;
+    color: #555;
+}
+.button{
+    background-color:rgb(0, 166, 232);
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    padding: 7px 120px;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    margin: 9px 7px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;    
+}
+.button:hover {opacity: 1}
+.line-text {
+    position: relative;
+    display: inline-block;
+    color: #727171;
+    padding: 20px;
+    font-weight:bold;
+    text-align: center; /* Center the text */
+    margin-left: 130px; /* Adjust padding as needed */
+    margin-right: auto; /* Automatically adjust right margin for centering */
+    margin-top: 10px;
+}
+
+
+.line-text::before,
+.line-text::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100px; /* Adjust the width of the lines */
+    height: 1px; /* Adjust the height/thickness of the lines */
+    background-color: #777; /* Adjust the color of the lines */
+    transform: translateY(-50%); /* Center the lines vertically */
+}
+
+.line-text::before {
+    left: -120px; /* Adjust the distance of the line from the text */
+}
+
+.line-text::after {
+    right: -120px; /* Adjust the distance of the line from the text */
+}
+.fb {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.fb img {
+    width: 20px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 70px;
+}
+.fb a {
+   
+    margin-left: 10px;
+    font-size: 15px;
+    color: #385185;
+   font-weight:  bold;
+    text-decoration:none;    
+}
+
+.f{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.f a {
+    margin-left: 110px;
+    font-size: 12px;
+    color: #385185;
+    text-decoration:none;  
+}
+
+
+.info2 {
+    border: 2px solid rgb(218, 216, 216);
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+
+
+}
+
+.info2 p {
+        position: relative;
+        left: 43px;
+
+}
+
+.info2 a {
+    font-size: 18px;
+    color: rgb(0, 166, 232);
+    text-decoration:none;  
+    position: relative;
+    left: 43px;
+    font-weight:100;
+}
+g {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left: 280px;
+    text-align: center;
+    font-style: normal;
+}
+
+.apps {
+    position: absolute;
+    top: calc(98% + 10px); /* Adjust as needed */
+    left: 49%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.apps img.ios {
+    width: 100px;
+}
+.apps img{
+    width: 123px;
+}
